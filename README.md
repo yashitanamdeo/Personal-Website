@@ -1,2 +1,2 @@
 # Personal-Website
-My Personal Website (in progress)
+My Personal Website (under progress)
