@@ -882,14 +882,15 @@
                     id="contact-form"
                     class="contact-form"
                     name="contact-form"
-                    method="post"
-                    action="#"
+                    method="POST"
+                    action="https://formsubmit.co/yashita.namdeo2000@gmail.com"
                   >
                     <div class="row">
                       <div class="col-sm-6">
                         <div class="form-group">
                           <input
                             type="text"
+                            name="name"
                             class="form-control"
                             required="required"
                             placeholder="Full Name"
@@ -900,9 +901,10 @@
                         <div class="form-group">
                           <input
                             type="email"
+                            name="email"
                             class="form-control"
                             required="required"
-                            placeholder="Your email id"
+                            placeholder="Your Email Id"
                           />
                         </div>
                       </div>
@@ -910,6 +912,7 @@
                         <div class="form-group">
                           <input
                             type="text"
+                            name="_subject"
                             class="form-control"
                             required="required"
                             placeholder="Subject"
@@ -932,6 +935,9 @@
                       <button type="submit" class="btn btn-primary">
                         Submit
                       </button>
+                      <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
+                      <input type="hidden" name="_autoresponse" value="Thanks for your message, I'll get back to you shortly">
+                      <input type="hidden" name="_template" value="table">
                     </div>
                   </form>
                 </div>
